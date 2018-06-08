@@ -66,3 +66,21 @@ print(carac3)
 print(carac3.strip())
 #print(carac3.lstrip()) Eliminar caracteres em branco a esquerda
 #print(carac3.rstrip()) Eliminar caracteres em branco a direita
+
+
+carac4 = 'Cadeia de caracteres para editar'
+
+carac5 = carac4.split()
+print(carac5[0])
+print(carac5[1])
+print(carac5[2])
+print(carac5[3])
+print(carac5[4])
+# print(carac5[5]) Fora de range do array criado pelo split
+
+carac6 = '1,2,3,4,5,6,7'
+print(carac6.split(','))
+print(carac6.split(',', maxsplit = 3))
+
+carac7 = '-'.join(carac4)
+print(carac7)
