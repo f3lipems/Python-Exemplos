@@ -71,6 +71,9 @@ print(listaTest2)
 listaTest2.pop(0)
 print(listaTest2)
 
+listaTest2.remove('x')
+print(listaTest2)
+
 listaTest2.clear()
 print(listaTest2)
 
@@ -95,3 +98,5 @@ print(listaTest3)
 
 listaTest3.sort(reverse=True)
 print(listaTest3)
+
+print(type(listaTest3))
